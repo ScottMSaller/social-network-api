@@ -1,6 +1,6 @@
 import { Schema, model } from 'mongoose';
-import reactionSchema from './Reaction';
-import dateFormat from '../utils/dateFormat';
+import reactionSchema from './Reaction.js';
+import dateFormat from '../utils/dateFormat.js';
 
 const thoughtSchema = new Schema({
   thoughtText: {
