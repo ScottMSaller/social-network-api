@@ -3,6 +3,9 @@
 ## Description
 The **social-network-api** is a server-side API built with Express and Mongoose that allows users to share thoughts, react to others' thoughts, and add or remove friends. This API supports CRUD operations for users, thoughts, and reactions, providing an easy way to manage social interactions in a database-driven application.
 
+## Video of Project Working
+https://drive.google.com/file/d/10eb4VOcUWovc4d22ZJg2RDdhH1MtGMFZ/view?usp=drive_link
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -76,7 +79,8 @@ Below is the documentation for the API endpoints, including the HTTP methods and
     ```json
     {
       "thoughtText": "string",
-      "username": "string"
+      "username": "string",
+      "userId": "string"
     }
     ```
 
